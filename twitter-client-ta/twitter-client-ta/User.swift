@@ -14,10 +14,18 @@ class User {
     let profileImageURL: String
     let location: String
     
-    init(name: String, profileImageURL: String, location: String) {
-        self.name = name
-        self.profileImageURL = profileImageURL
-        self.location = location
+    init?(json: [String: Any]) {
+        if let name = json["name"] as? String,
+            let profileImageURL = json["profile_image_url"] as? String,
+            let location = json["location"] as? String {
+            
+            self.name = name
+            self.profileImageURL = profileImageURL
+            self.location = location
+            
+        } else {
+            return nil
+        }
     }
     
 }

@@ -16,6 +16,12 @@ class Tweet {
     
     let user: User?
     
-    
-    
+    init?(json: [String: Any]) { //falliable initializer, must take in json dict.
+        if let text = json["text"] as? String, let id = json["id_str"] as? String {
+            self.text = text
+            self.id = id
+        } else {
+            return nil
+        }
+    }
 }

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5576B9A31E80401F002D5A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5576B9A21E80401F002D5A0B /* AppDelegate.swift */; };
-		5576B9A51E80401F002D5A0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5576B9A41E80401F002D5A0B /* ViewController.swift */; };
 		5576B9A81E80401F002D5A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5576B9A61E80401F002D5A0B /* Main.storyboard */; };
 		5576B9AA1E80401F002D5A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5576B9A91E80401F002D5A0B /* Assets.xcassets */; };
 		5576B9AD1E80401F002D5A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5576B9AB1E80401F002D5A0B /* LaunchScreen.storyboard */; };
@@ -16,12 +15,12 @@
 		5576B9BB1E805404002D5A0B /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5576B9BA1E805404002D5A0B /* Tweet.swift */; };
 		5576B9BD1E80540F002D5A0B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5576B9BC1E80540F002D5A0B /* User.swift */; };
 		5576B9BF1E806D27002D5A0B /* JSONparser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5576B9BE1E806D27002D5A0B /* JSONparser.swift */; };
+		5576B9C11E8077E8002D5A0B /* HomeTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5576B9C01E8077E8002D5A0B /* HomeTimelineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5576B99F1E80401F002D5A0B /* twitter-client-ta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twitter-client-ta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5576B9A21E80401F002D5A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5576B9A41E80401F002D5A0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5576B9A71E80401F002D5A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5576B9A91E80401F002D5A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5576B9AC1E80401F002D5A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		5576B9BA1E805404002D5A0B /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		5576B9BC1E80540F002D5A0B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5576B9BE1E806D27002D5A0B /* JSONparser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONparser.swift; sourceTree = "<group>"; };
+		5576B9C01E8077E8002D5A0B /* HomeTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTimelineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		5576B9B81E8052E8002D5A0B /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				5576B9A41E80401F002D5A0B /* ViewController.swift */,
+				5576B9C01E8077E8002D5A0B /* HomeTimelineViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -185,8 +185,8 @@
 				5576B9BF1E806D27002D5A0B /* JSONparser.swift in Sources */,
 				5576B9BD1E80540F002D5A0B /* User.swift in Sources */,
 				5576B9BB1E805404002D5A0B /* Tweet.swift in Sources */,
-				5576B9A51E80401F002D5A0B /* ViewController.swift in Sources */,
 				5576B9A31E80401F002D5A0B /* AppDelegate.swift in Sources */,
+				5576B9C11E8077E8002D5A0B /* HomeTimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

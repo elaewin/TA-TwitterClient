@@ -6,11 +6,13 @@
 //  Copyright © 2017 Erica Winberry. All rights reserved.
 //
 
+import Foundation
 import UIKit
 import Accounts
 
-typealias AccountCallback = ACAccount? -> ()
-
+typealias accountCallback = (ACAccount?) -> ()
+typealias userCallback = (User?) -> ()
+typealias tweetsCallback = ([Tweet]?) -> ()
 
 class API {
     
